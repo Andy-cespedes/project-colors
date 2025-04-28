@@ -10,6 +10,8 @@ function changeBackground()
    color=color+symbols[Math.floor(Math.random() * 16)];
     }
     console.log(color);
+    document.body.style.background = color;
+    document.querySelector("span").innerHTML=color;
 
 
 }
